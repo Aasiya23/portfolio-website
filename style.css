@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    font-family: "PT sans",sans-serif;
+}
+.main{
+    display:flex;
+    gap:1rem;
+    height:100vh;
+}
+.left-panel{
+    width:20%;
+    height:100%;
+    background-color:rgb(206, 141, 141);
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-panel{
+    width:80%;
+    height:100%;
+    background-color:blanchedalmond;
+    overflow-y: scroll;
+    padding:1rem;
+}
+.h3{
+    color:aquamarine;
+    font-size:32px;
+
+}
+.p{
+    font-size: 24px;
+}
+.profile-image{
+    height:8rem;
+    width:8rem;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.icons{
+    list-style-type: none;
+    display: flex;
+    gap: 0.5rem;;
+    align-items: center;
+    margin:0;
+    padding:0;
+    justify-content:space-around;
+    flex-direction: row;
+}
+.icons img{
+    height:3rem;
+    width:3rem;
+}
+.name{
+    margin:0.2rem;
+    padding:0.2rem;
+}
+.place{
+    margin:0.2;
+    padding:0.2;
+}
+.contact{
+    color:coral;
+}
+.project{
+    color: darkmagenta;
+}
+.about{
+    color:blue;
+}
+.edu{
+    color:blue;
+}
+.web{
+    color: black;
+}
+.a{
+    color:darkred;
+}
